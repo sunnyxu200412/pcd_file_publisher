@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.002727] (pcd_file_publisher) JobQueued: {'identifier': 'pcd_file_publisher', 'dependencies': OrderedDict()}
+[0.002767] (pcd_file_publisher) JobStarted: {'identifier': 'pcd_file_publisher'}
+[0.014753] (pcd_file_publisher) JobProgress: {'identifier': 'pcd_file_publisher', 'progress': 'cmake'}
+[0.014991] (pcd_file_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/arvuser/arv-ws/src/nav_stack/pcd_file_publisher', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/arvuser/arv-ws/src/nav_stack/pcd_file_publisher/install/pcd_file_publisher'], 'cwd': '/home/arvuser/arv-ws/src/nav_stack/pcd_file_publisher/build/pcd_file_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arvuser'), ('GIO_MODULE_DIR', '/home/arvuser/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/173/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/arvuser/arv-ws/install/pizza_bot_interfaces/lib:/home/arvuser/arv-ws/install/nav2_laneline_costmap_plugin/lib:/home/arvuser/arv-ws/install/nav2_dstarlite_planner/lib:/home/arvuser/arv-ws/install/nav2_customnavfn_planner/lib:/home/arvuser/arv-ws/install/nav2_arvstar_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arvuser'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/arvuser/arv-ws'), ('TERM_PROGRAM_VERSION', '1.95.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/173/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/arvuser/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/173/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/173/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1689'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arvuser/arv-ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arvuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'arvuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arvuser-vm:@/tmp/.ICE-unix/1663,unix/arvuser-vm:/tmp/.ICE-unix/1663'), ('GTK_EXE_PREFIX', '/snap/code/173/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25554227_7fbc_4d93_84f5_4ad29d794e70'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/173/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/arvuser/snap/code/173/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D9OLW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cb86b51dae.sock'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/arvuser/snap/code/173/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/arvuser/arv-ws/install/ros2_cpp_pkg:/home/arvuser/arv-ws/install/pizza_bot_infrastructure:/home/arvuser/arv-ws/install/pizza_bot:/home/arvuser/arv-ws/install/pizza_bot_interfaces:/home/arvuser/arv-ws/install/occupub:/home/arvuser/arv-ws/install/nav2_laneline_costmap_plugin:/home/arvuser/arv-ws/install/nav2_dstarlite_planner:/home/arvuser/arv-ws/install/nav2_customnavfn_planner:/home/arvuser/arv-ws/install/nav2_arvstar_planner:/home/arvuser/arv-ws/install/marvin_bot_description:/home/arvuser/arv-ws/install/gps_transform:/home/arvuser/arv-ws/install/gps_coord_pub:/home/arvuser/arv-ws/install/drive_state_pub:/home/arvuser/arv-ws/install/cv_grid:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arvuser/arv-ws/src/nav_stack/pcd_file_publisher/build/pcd_file_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/arvuser/snap/code/173/.local/share:/home/arvuser/snap/code/173:/snap/code/173/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arvuser/arv-ws/install/pizza_bot_interfaces/local/lib/python3.10/dist-packages:/home/arvuser/arv-ws/install/gps_coord_pub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arvuser/arv-ws/install/ros2_cpp_pkg:/home/arvuser/arv-ws/install/pizza_bot_infrastructure:/home/arvuser/arv-ws/install/pizza_bot:/home/arvuser/arv-ws/install/pizza_bot_interfaces:/home/arvuser/arv-ws/install/occupub:/home/arvuser/arv-ws/install/nav2_laneline_costmap_plugin:/home/arvuser/arv-ws/install/nav2_dstarlite_planner:/home/arvuser/arv-ws/install/nav2_customnavfn_planner:/home/arvuser/arv-ws/install/nav2_arvstar_planner:/home/arvuser/arv-ws/install/marvin_bot_description:/home/arvuser/arv-ws/install/gps_transform:/home/arvuser/arv-ws/install/drive_state_pub:/home/arvuser/arv-ws/install/cv_grid')]), 'shell': False}
+[0.098253] (pcd_file_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099931] (-) TimerEvent: {}
+[0.179781] (pcd_file_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.188449] (pcd_file_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200056] (-) TimerEvent: {}
+[0.285116] (pcd_file_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.291351] (pcd_file_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.293323] (pcd_file_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.293749] (pcd_file_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.296753] (pcd_file_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300506] (-) TimerEvent: {}
+[0.400713] (-) TimerEvent: {}
+[0.443685] (pcd_file_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.450780] (pcd_file_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.451052] (pcd_file_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.451916] (pcd_file_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.465235] (pcd_file_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.504496] (-) TimerEvent: {}
+[0.605448] (-) TimerEvent: {}
+[0.705824] (-) TimerEvent: {}
+[0.707599] (pcd_file_publisher) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.805940] (-) TimerEvent: {}
+[0.806594] (pcd_file_publisher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.860257] (pcd_file_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.865525] (pcd_file_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.874206] (pcd_file_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.888506] (pcd_file_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.905593] (pcd_file_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.906025] (-) TimerEvent: {}
+[0.952692] (pcd_file_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.955294] (pcd_file_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.006313] (-) TimerEvent: {}
+[1.103992] (pcd_file_publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.106508] (-) TimerEvent: {}
+[1.142671] (pcd_file_publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.190253] (pcd_file_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.203278] (pcd_file_publisher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.207009] (-) TimerEvent: {}
+[1.307391] (-) TimerEvent: {}
+[1.321905] (pcd_file_publisher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.322957] (pcd_file_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.407780] (-) TimerEvent: {}
+[1.437825] (pcd_file_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.438014] (pcd_file_publisher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.497205] (pcd_file_publisher) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[1.508026] (-) TimerEvent: {}
+[1.582573] (pcd_file_publisher) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.609223] (pcd_file_publisher) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.609439] (-) TimerEvent: {}
+[1.669095] (pcd_file_publisher) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.669342] (pcd_file_publisher) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.699589] (pcd_file_publisher) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.709851] (-) TimerEvent: {}
+[1.735225] (pcd_file_publisher) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.809978] (-) TimerEvent: {}
+[1.814385] (pcd_file_publisher) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.814727] (pcd_file_publisher) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.910731] (-) TimerEvent: {}
+[2.011350] (-) TimerEvent: {}
+[2.112706] (-) TimerEvent: {}
+[2.213602] (-) TimerEvent: {}
+[2.313970] (-) TimerEvent: {}
+[2.414772] (-) TimerEvent: {}
+[2.515096] (-) TimerEvent: {}
+[2.615687] (-) TimerEvent: {}
+[2.717709] (-) TimerEvent: {}
+[2.818029] (-) TimerEvent: {}
+[2.918940] (-) TimerEvent: {}
+[3.019308] (-) TimerEvent: {}
+[3.119921] (-) TimerEvent: {}
+[3.222314] (-) TimerEvent: {}
+[3.239521] (pcd_file_publisher) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[3.269848] (pcd_file_publisher) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[3.322509] (-) TimerEvent: {}
+[3.337830] (pcd_file_publisher) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[3.339750] (pcd_file_publisher) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.423286] (-) TimerEvent: {}
+[3.467528] (pcd_file_publisher) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.523752] (-) TimerEvent: {}
+[3.624557] (-) TimerEvent: {}
+[3.647747] (pcd_file_publisher) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.659087] (pcd_file_publisher) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.669734] (pcd_file_publisher) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.724772] (-) TimerEvent: {}
+[3.825543] (-) TimerEvent: {}
+[3.842871] (pcd_file_publisher) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.925893] (-) TimerEvent: {}
+[4.010596] (pcd_file_publisher) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.026076] (-) TimerEvent: {}
+[4.126566] (-) TimerEvent: {}
+[4.175496] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[4.176404] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[4.177196] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[4.178995] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[4.179181] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[4.179730] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[4.180714] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[4.180786] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[4.181337] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[4.182308] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[4.183513] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[4.184402] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[4.185376] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[4.186533] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[4.187725] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[4.188700] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[4.189672] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[4.190602] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[4.191641] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[4.192642] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[4.193670] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[4.193905] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[4.194314] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[4.195216] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[4.196035] (pcd_file_publisher) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[4.226726] (-) TimerEvent: {}
+[4.227727] (pcd_file_publisher) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[4.228717] (pcd_file_publisher) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[4.228882] (pcd_file_publisher) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.312155] (pcd_file_publisher) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:14 (find_package):\n'}
+[4.312364] (pcd_file_publisher) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[4.312421] (pcd_file_publisher) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[4.312471] (pcd_file_publisher) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[4.312518] (pcd_file_publisher) StderrLine: {'line': b'\n'}
+[4.312595] (pcd_file_publisher) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[4.312686] (pcd_file_publisher) StderrLine: {'line': b'\n'}
+[4.312740] (pcd_file_publisher) StderrLine: {'line': b'    /usr\n'}
+[4.312788] (pcd_file_publisher) StderrLine: {'line': b'\n'}
+[4.312835] (pcd_file_publisher) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[4.312883] (pcd_file_publisher) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.312932] (pcd_file_publisher) StderrLine: {'line': b'\x1b[0m\n'}
+[4.327035] (-) TimerEvent: {}
+[4.339574] (pcd_file_publisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.418009] (pcd_file_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.427170] (-) TimerEvent: {}
+[4.428693] (pcd_file_publisher) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (add_executable):\n'}
+[4.428883] (pcd_file_publisher) StderrLine: {'line': b'  Target "pcd_file_publisher" links to target "pcl_ros::pcl_ros" but the\n'}
+[4.428963] (pcd_file_publisher) StderrLine: {'line': b'  target was not found.  Perhaps a find_package() call is missing for an\n'}
+[4.429024] (pcd_file_publisher) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[4.429090] (pcd_file_publisher) StderrLine: {'line': b'\n'}
+[4.429144] (pcd_file_publisher) StderrLine: {'line': b'\x1b[0m\n'}
+[4.429196] (pcd_file_publisher) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (add_executable):\n'}
+[4.429250] (pcd_file_publisher) StderrLine: {'line': b'  Target "pcd_file_publisher" links to target\n'}
+[4.429301] (pcd_file_publisher) StderrLine: {'line': b'  "pcl_conversions::pcl_conversions" but the target was not found.  Perhaps a\n'}
+[4.429352] (pcd_file_publisher) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[4.429404] (pcd_file_publisher) StderrLine: {'line': b'  is missing?\n'}
+[4.429454] (pcd_file_publisher) StderrLine: {'line': b'\n'}
+[4.429504] (pcd_file_publisher) StderrLine: {'line': b'\x1b[0m\n'}
+[4.489746] (pcd_file_publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[4.490653] (pcd_file_publisher) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[4.490752] (pcd_file_publisher) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[4.490804] (pcd_file_publisher) StderrLine: {'line': b'\n'}
+[4.490852] (pcd_file_publisher) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[4.490899] (pcd_file_publisher) StderrLine: {'line': b'    CATKIN_SYMLINK_INSTALL\n'}
+[4.490945] (pcd_file_publisher) StderrLine: {'line': b'\n'}
+[4.490989] (pcd_file_publisher) StderrLine: {'line': b'\x1b[0m\n'}
+[4.491033] (pcd_file_publisher) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[4.511008] (pcd_file_publisher) CommandEnded: {'returncode': 1}
+[4.527332] (-) TimerEvent: {}
+[4.540339] (pcd_file_publisher) JobEnded: {'identifier': 'pcd_file_publisher', 'rc': 1}
+[4.552579] (-) EventReactorShutdown: {}

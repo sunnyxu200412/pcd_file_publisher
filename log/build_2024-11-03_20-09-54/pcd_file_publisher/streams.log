@@ -1,0 +1,115 @@
+[0.013s] Invoking command in '/home/arvuser/arv-ws/src/nav_stack/pcd_file_publisher/build/pcd_file_publisher': /usr/bin/cmake /home/arvuser/arv-ws/src/nav_stack/pcd_file_publisher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/arvuser/arv-ws/src/nav_stack/pcd_file_publisher/install/pcd_file_publisher
+[0.096s] -- The C compiler identification is GNU 11.4.0
+[0.177s] -- The CXX compiler identification is GNU 11.4.0
+[0.186s] -- Detecting C compiler ABI info
+[0.282s] -- Detecting C compiler ABI info - done
+[0.289s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.291s] -- Detecting C compile features
+[0.292s] -- Detecting C compile features - done
+[0.294s] -- Detecting CXX compiler ABI info
+[0.441s] -- Detecting CXX compiler ABI info - done
+[0.448s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.448s] -- Detecting CXX compile features
+[0.449s] -- Detecting CXX compile features - done
+[0.463s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.705s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.804s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.858s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.863s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.872s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.886s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.903s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.950s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.953s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.101s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.140s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.188s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.201s] -- Looking for pthread.h
+[1.319s] -- Looking for pthread.h - found
+[1.320s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.435s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.435s] -- Found Threads: TRUE  
+[1.495s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.580s] -- Checking for module 'eigen3'
+[1.607s] --   Found eigen3, version 3.4.0
+[1.666s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.667s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.697s] -- Checking for module 'flann'
+[1.733s] --   Found flann, version 1.9.1
+[1.812s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.812s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.237s] -- Checking for module 'libusb-1.0'
+[3.267s] --   Found libusb-1.0, version 1.0.25
+[3.335s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.337s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.465s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.645s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.656s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.667s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.840s] -- Found Qhull version 8.0.2
+[4.008s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.173s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.174s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.174s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.176s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.176s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.177s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.178s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.178s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.179s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.180s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.181s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.182s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.183s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.184s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.185s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.186s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.187s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.188s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.189s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.190s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.191s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.191s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.192s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.193s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.193s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.225s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.226s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.226s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.310s] [33mCMake Warning (dev) at CMakeLists.txt:14 (find_package):
+[4.310s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[4.310s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[4.310s]   command to set the policy and suppress this warning.
+[4.310s] 
+[4.310s]   CMake variable PCL_ROOT is set to:
+[4.310s] 
+[4.310s]     /usr
+[4.310s] 
+[4.310s]   For compatibility, CMake is ignoring the variable.
+[4.310s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.310s] [0m
+[4.337s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.415s] -- Configuring done
+[4.426s] [31mCMake Error at CMakeLists.txt:26 (add_executable):
+[4.426s]   Target "pcd_file_publisher" links to target "pcl_ros::pcl_ros" but the
+[4.426s]   target was not found.  Perhaps a find_package() call is missing for an
+[4.426s]   IMPORTED target, or an ALIAS target is missing?
+[4.426s] 
+[4.426s] [0m
+[4.426s] [31mCMake Error at CMakeLists.txt:26 (add_executable):
+[4.427s]   Target "pcd_file_publisher" links to target
+[4.427s]   "pcl_conversions::pcl_conversions" but the target was not found.  Perhaps a
+[4.427s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[4.427s]   is missing?
+[4.427s] 
+[4.427s] [0m
+[4.487s] -- Generating done
+[4.488s] [33mCMake Warning:
+[4.488s]   Manually-specified variables were not used by the project:
+[4.488s] 
+[4.488s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[4.488s]     CATKIN_SYMLINK_INSTALL
+[4.488s] 
+[4.488s] [0m
+[4.488s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[4.509s] Invoked command in '/home/arvuser/arv-ws/src/nav_stack/pcd_file_publisher/build/pcd_file_publisher' returned '1': /usr/bin/cmake /home/arvuser/arv-ws/src/nav_stack/pcd_file_publisher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/arvuser/arv-ws/src/nav_stack/pcd_file_publisher/install/pcd_file_publisher
