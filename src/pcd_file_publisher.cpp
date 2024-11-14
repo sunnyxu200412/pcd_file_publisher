@@ -10,6 +10,7 @@
 #include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
 
 
+
 using namespace std::chrono_literals;
 
 
@@ -20,7 +21,7 @@ PointCloudPublisher::PointCloudPublisher()
         
         // Timer to publish at 1 Hzs
         timer_ = this->create_wall_timer(
-            1s, std::bind(&PointCloudPublisher::publish_point_cloud, this));
+            10s, std::bind(&PointCloudPublisher::publish_point_cloud, this));
         
         RCLCPP_INFO(this->get_logger(), "Publishing point cloud on topic 'cloud_topic' once every second.");
 }
@@ -54,12 +55,16 @@ PointCloudPublisher::PointCloudPublisher()
         my_cloud->header.frame_id = "map";
         std::cout << "here" << std::endl;
         
+        pcl::PointCloud<pcl::PointXYZRGB> out_pointcloud;
+        pcl::fromROSMsg(*my_cloud, out_pointcloud);
+
+        for(int i = 0 ; i < out_pointcloud.points.size(); ++i){
+            std::cout << "x: " << out_pointcloud.points[i].x << " y: "  <<out_pointcloud.points[i].y << " z: "<<out_pointcloud.points[i].z << std::endl;
+        }
+
         // Publish point cloud
         demo_publisher_->publish(*my_cloud);
     }
-
-    rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr demo_publisher_;
-    rclcpp::TimerBase::SharedPtr timer_;
 
 
 //#endif
